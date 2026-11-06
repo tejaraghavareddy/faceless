@@ -1,0 +1,21 @@
+{
+  "name": "cybersecurity-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx remotion preview src/index.ts",
+    "build:video": "npx remotion render src/index.ts cybersecurity-explainer out/cybersecurity-explainer.mp4 --codec h264 --width 1080 --height 1920 --fps 30 --audio false --image-format png",
+    "clean": "rm -rf out dist tmp"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@remotion/cli": "^4.0.0",
+    "typescript": "^5.7.0"
+  }
+}
