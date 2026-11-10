@@ -1,0 +1,20 @@
+{
+  "name": "how-internet-works-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx remotion studio src/index.ts --host 0.0.0.0 --port 3001",
+    "build:video": "npx remotion render src/index.ts HowTheInternetWorks out/how-the-internet-works.mp4 --codec h264 --width 1920 --height 1080 --fps 30",
+    "clean": "rm -rf out dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@types/react": "^18.3.0",
+    "typescript": "^5.7.0"
+  }
+}
