@@ -1,0 +1,385 @@
+{
+  "fps": 30,
+  "totalFrames": 14370,
+  "scenes": [
+    {
+      "id": "s1",
+      "label": "Introduction",
+      "startFrame": 0,
+      "durationInFrames": 911,
+      "beats": [
+        {
+          "text": "Every day, we share information through websites, mobile applications, banking systems and cloud platforms.",
+          "file": "s1-b1.mp3",
+          "frame": 0,
+          "seconds": 0.0,
+          "durationInFrames": 272
+        },
+        {
+          "text": "But have you ever wondered what actually keeps this information secure?",
+          "file": "s1-b2.mp3",
+          "frame": 279,
+          "seconds": 9.3,
+          "durationInFrames": 162
+        },
+        {
+          "text": "Cybersecurity is built around three fundamental principles. Together, they form the CIA Triad.",
+          "file": "s1-b3.mp3",
+          "frame": 448,
+          "seconds": 14.92,
+          "durationInFrames": 258
+        },
+        {
+          "text": "Confidentiality. Integrity. Availability.",
+          "file": "s1-b4.mp3",
+          "frame": 713,
+          "seconds": 23.76,
+          "durationInFrames": 164
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "label": "Understanding the Triad",
+      "startFrame": 911,
+      "durationInFrames": 1423,
+      "beats": [
+        {
+          "text": "Let us look at the three principles, one by one.",
+          "file": "s2-b1.mp3",
+          "frame": 0,
+          "seconds": 0.0,
+          "durationInFrames": 136
+        },
+        {
+          "text": "Confidentiality protects information from unauthorised access. It answers one simple question. Who is allowed to see this?",
+          "file": "s2-b2.mp3",
+          "frame": 143,
+          "seconds": 4.76,
+          "durationInFrames": 332
+        },
+        {
+          "text": "Integrity protects information from unauthorised change. It asks, is this data accurate, complete and trustworthy?",
+          "file": "s2-b3.mp3",
+          "frame": 482,
+          "seconds": 16.07,
+          "durationInFrames": 299
+        },
+        {
+          "text": "Availability ensures that information and services remain accessible whenever authorised users need them.",
+          "file": "s2-b4.mp3",
+          "frame": 788,
+          "seconds": 26.28,
+          "durationInFrames": 258
+        },
+        {
+          "text": "Effective security requires all three. A system that is private but always offline, or available but easily altered, is not secure.",
+          "file": "s2-b5.mp3",
+          "frame": 1054,
+          "seconds": 35.12,
+          "durationInFrames": 335
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "label": "Confidentiality",
+      "startFrame": 2334,
+      "durationInFrames": 2380,
+      "beats": [
+        {
+          "text": "Consider an online banking application. Anyone on the internet can open the login page. But only the account holder should ever see the account.",
+          "file": "s3-b1.mp3",
+          "frame": 0,
+          "seconds": 0.0,
+          "durationInFrames": 373
+        },
+        {
+          "text": "It begins with authentication. Proving who you are, using your customer ID and password, and often a second factor, such as a one-time code.",
+          "file": "s3-b2.mp3",
+          "frame": 380,
+          "seconds": 12.66,
+          "durationInFrames": 363
+        },
+        {
+          "text": "Authentication is followed by authorisation, which decides what an identified user is permitted to do.",
+          "file": "s3-b3.mp3",
+          "frame": 749,
+          "seconds": 24.98,
+          "durationInFrames": 250
+        },
+        {
+          "text": "Access control enforces those permissions. A customer may view their own account, but never the account of another customer.",
+          "file": "s3-b4.mp3",
+          "frame": 1007,
+          "seconds": 33.56,
+          "durationInFrames": 301
+        },
+        {
+          "text": "Data is also protected while it travels. Encryption converts readable information into ciphertext, which only the intended receiver can decrypt.",
+          "file": "s3-b5.mp3",
+          "frame": 1315,
+          "seconds": 43.84,
+          "durationInFrames": 366
+        },
+        {
+          "text": "Here is a familiar example. A student logs in to the examination portal and views their own results. Another student's record is refused, because they are not authorised to see it.",
+          "file": "s3-b6.mp3",
+          "frame": 1688,
+          "seconds": 56.26,
+          "durationInFrames": 453
+        },
+        {
+          "text": "In short, confidentiality is about preventing unauthorised access to information.",
+          "file": "s3-b7.mp3",
+          "frame": 2148,
+          "seconds": 71.6,
+          "durationInFrames": 198
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "label": "Integrity",
+      "startFrame": 4714,
+      "durationInFrames": 2540,
+      "beats": [
+        {
+          "text": "Integrity is about accuracy. Information must remain exactly as it was recorded, unless it is changed by someone who is authorised to change it.",
+          "file": "s4-b1.mp3",
+          "frame": 0,
+          "seconds": 0.0,
+          "durationInFrames": 361
+        },
+        {
+          "text": "Imagine a transfer of one thousand rupees. The amount is stored in a database, and sent to another system for processing.",
+          "file": "s4-b2.mp3",
+          "frame": 368,
+          "seconds": 12.27,
+          "durationInFrames": 306
+        },
+        {
+          "text": "Now suppose an attacker intercepts the transfer and changes the amount to ten thousand rupees. The record still looks valid. But it is no longer true.",
+          "file": "s4-b3.mp3",
+          "frame": 681,
+          "seconds": 22.69,
+          "durationInFrames": 376
+        },
+        {
+          "text": "Cryptographic hashing prevents this. A hash function converts data into a short, fixed-length fingerprint. Change even one character, and the fingerprint changes completely.",
+          "file": "s4-b4.mp3",
+          "frame": 1064,
+          "seconds": 35.47,
+          "durationInFrames": 418
+        },
+        {
+          "text": "Digital signatures go further. They prove who created or approved the data, and confirm that it has not been altered since.",
+          "file": "s4-b5.mp3",
+          "frame": 1489,
+          "seconds": 49.64,
+          "durationInFrames": 318
+        },
+        {
+          "text": "File integrity checks compare hashes before and after transfer, and audit logs record every change, along with who made it, and when.",
+          "file": "s4-b6.mp3",
+          "frame": 1814,
+          "seconds": 60.47,
+          "durationInFrames": 321
+        },
+        {
+          "text": "For example, a published university result must not be secretly modified. Integrity is about maintaining data accuracy and trustworthiness.",
+          "file": "s4-b7.mp3",
+          "frame": 2142,
+          "seconds": 71.4,
+          "durationInFrames": 364
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "label": "Availability",
+      "startFrame": 7254,
+      "durationInFrames": 2379,
+      "beats": [
+        {
+          "text": "Availability ensures that information and services are accessible to authorised users, whenever they are needed.",
+          "file": "s5-b1.mp3",
+          "frame": 0,
+          "seconds": 0.0,
+          "durationInFrames": 269
+        },
+        {
+          "text": "A student opens the university website to download their results. The page loads normally, and the service is healthy.",
+          "file": "s5-b2.mp3",
+          "frame": 276,
+          "seconds": 9.2,
+          "durationInFrames": 296
+        },
+        {
+          "text": "Now imagine a sudden flood of requests, far beyond what the server can handle. Response times rise, queues fill up, and eventually the service fails. This is a denial of service attack.",
+          "file": "s5-b3.mp3",
+          "frame": 579,
+          "seconds": 19.31,
+          "durationInFrames": 476
+        },
+        {
+          "text": "Availability is engineered in advance. A load balancer spreads traffic across several servers, so that no single machine carries the entire load.",
+          "file": "s5-b4.mp3",
+          "frame": 1062,
+          "seconds": 35.4,
+          "durationInFrames": 365
+        },
+        {
+          "text": "Servers are duplicated, so if one fails, another takes over. Backups protect the data itself, and disaster recovery plans restore service after a major failure.",
+          "file": "s5-b5.mp3",
+          "frame": 1434,
+          "seconds": 47.79,
+          "durationInFrames": 419
+        },
+        {
+          "text": "With these controls in place, the service recovers, and the student can download the result again.",
+          "file": "s5-b6.mp3",
+          "frame": 1859,
+          "seconds": 61.98,
+          "durationInFrames": 229
+        },
+        {
+          "text": "Availability means access to information when it is needed, not merely when everything happens to be working.",
+          "file": "s5-b7.mp3",
+          "frame": 2096,
+          "seconds": 69.86,
+          "durationInFrames": 250
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "label": "Working Together",
+      "startFrame": 9634,
+      "durationInFrames": 1819,
+      "beats": [
+        {
+          "text": "In practice, the three principles are never separate. They work together, in the same system, at the same moment.",
+          "file": "s6-b1.mp3",
+          "frame": 0,
+          "seconds": 0.0,
+          "durationInFrames": 281
+        },
+        {
+          "text": "Think about a single banking transaction. Confidentiality ensures that only you, the authenticated customer, can see your account and your balance.",
+          "file": "s6-b2.mp3",
+          "frame": 288,
+          "seconds": 9.61,
+          "durationInFrames": 350
+        },
+        {
+          "text": "Integrity ensures that the amount you entered is the amount that is recorded and transferred, unchanged.",
+          "file": "s6-b3.mp3",
+          "frame": 645,
+          "seconds": 21.5,
+          "durationInFrames": 234
+        },
+        {
+          "text": "Availability ensures that the application, the database, and the payment network are reachable at the moment you press confirm.",
+          "file": "s6-b4.mp3",
+          "frame": 887,
+          "seconds": 29.55,
+          "durationInFrames": 283
+        },
+        {
+          "text": "Remove any one of them, and the system is no longer trustworthy. A private but tampered balance is useless. An accurate balance that nobody can reach is equally useless.",
+          "file": "s6-b5.mp3",
+          "frame": 1177,
+          "seconds": 39.23,
+          "durationInFrames": 435
+        },
+        {
+          "text": "Complete information security means protecting all three, together.",
+          "file": "s6-b6.mp3",
+          "frame": 1619,
+          "seconds": 53.97,
+          "durationInFrames": 166
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "label": "Real-World Applications",
+      "startFrame": 11453,
+      "durationInFrames": 1528,
+      "beats": [
+        {
+          "text": "These principles appear in every industry that holds sensitive information.",
+          "file": "s7-b1.mp3",
+          "frame": 0,
+          "seconds": 0.0,
+          "durationInFrames": 196
+        },
+        {
+          "text": "In banking, confidentiality protects account details, integrity protects the transaction ledger, and availability keeps payments running around the clock.",
+          "file": "s7-b2.mp3",
+          "frame": 203,
+          "seconds": 6.78,
+          "durationInFrames": 337
+        },
+        {
+          "text": "In healthcare, confidentiality protects patient records, integrity protects prescriptions and test results, and availability gives doctors access during an emergency.",
+          "file": "s7-b3.mp3",
+          "frame": 547,
+          "seconds": 18.24,
+          "durationInFrames": 380
+        },
+        {
+          "text": "In education, confidentiality protects student data, integrity protects marks and certificates, and availability keeps examination and admission portals open on result day.",
+          "file": "s7-b4.mp3",
+          "frame": 934,
+          "seconds": 31.14,
+          "durationInFrames": 409
+        },
+        {
+          "text": "The technology differs. The principles do not.",
+          "file": "s7-b5.mp3",
+          "frame": 1351,
+          "seconds": 45.02,
+          "durationInFrames": 144
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "label": "Recap",
+      "startFrame": 12981,
+      "durationInFrames": 1389,
+      "beats": [
+        {
+          "text": "So, when you evaluate any system, ask three questions. Confidentiality. Who can access the information?",
+          "file": "s8-b1.mp3",
+          "frame": 0,
+          "seconds": 0.0,
+          "durationInFrames": 316
+        },
+        {
+          "text": "Integrity. Is the information accurate and trustworthy?",
+          "file": "s8-b2.mp3",
+          "frame": 323,
+          "seconds": 10.78,
+          "durationInFrames": 166
+        },
+        {
+          "text": "Availability. Can authorised users access it when needed?",
+          "file": "s8-b3.mp3",
+          "frame": 497,
+          "seconds": 16.55,
+          "durationInFrames": 168
+        },
+        {
+          "text": "The next time you use an application, access a website, or share information online, remember that these three principles are working behind the scenes. Confidentiality, integrity and availability are not just cybersecurity terminology. They are the foundation of digital trust.",
+          "file": "s8-b4.mp3",
+          "frame": 672,
+          "seconds": 22.39,
+          "durationInFrames": 684
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+node_modules/
+package-lock.json
+.env
+env.local
+out/
+public/audio/vo/*.mp3
+public/audio/music/*.mp3
+.venv/

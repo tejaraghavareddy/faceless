@@ -1,0 +1,101 @@
+{
+  "voice": "en-IN-PrabhatNeural",
+  "rate": "-2%",
+  "gap": 0.3,
+  "sceneTail": 1.2,
+  "scenes": [
+    {
+      "id": "s1",
+      "label": "Introduction",
+      "beats": [
+        "Every day, we share information through websites, mobile applications, banking systems and cloud platforms.",
+        "But have you ever wondered what actually keeps this information secure?",
+        "Cybersecurity is built around three fundamental principles. Together, they form the CIA Triad.",
+        "Confidentiality. Integrity. Availability."
+      ]
+    },
+    {
+      "id": "s2",
+      "label": "Understanding the Triad",
+      "beats": [
+        "Let us look at the three principles, one by one.",
+        "Confidentiality protects information from unauthorised access. It answers one simple question. Who is allowed to see this?",
+        "Integrity protects information from unauthorised change. It asks, is this data accurate, complete and trustworthy?",
+        "Availability ensures that information and services remain accessible whenever authorised users need them.",
+        "Effective security requires all three. A system that is private but always offline, or available but easily altered, is not secure."
+      ]
+    },
+    {
+      "id": "s3",
+      "label": "Confidentiality",
+      "beats": [
+        "Consider an online banking application. Anyone on the internet can open the login page. But only the account holder should ever see the account.",
+        "It begins with authentication. Proving who you are, using your customer ID and password, and often a second factor, such as a one-time code.",
+        "Authentication is followed by authorisation, which decides what an identified user is permitted to do.",
+        "Access control enforces those permissions. A customer may view their own account, but never the account of another customer.",
+        "Data is also protected while it travels. Encryption converts readable information into ciphertext, which only the intended receiver can decrypt.",
+        "Here is a familiar example. A student logs in to the examination portal and views their own results. Another student's record is refused, because they are not authorised to see it.",
+        "In short, confidentiality is about preventing unauthorised access to information."
+      ]
+    },
+    {
+      "id": "s4",
+      "label": "Integrity",
+      "beats": [
+        "Integrity is about accuracy. Information must remain exactly as it was recorded, unless it is changed by someone who is authorised to change it.",
+        "Imagine a transfer of one thousand rupees. The amount is stored in a database, and sent to another system for processing.",
+        "Now suppose an attacker intercepts the transfer and changes the amount to ten thousand rupees. The record still looks valid. But it is no longer true.",
+        "Cryptographic hashing prevents this. A hash function converts data into a short, fixed-length fingerprint. Change even one character, and the fingerprint changes completely.",
+        "Digital signatures go further. They prove who created or approved the data, and confirm that it has not been altered since.",
+        "File integrity checks compare hashes before and after transfer, and audit logs record every change, along with who made it, and when.",
+        "For example, a published university result must not be secretly modified. Integrity is about maintaining data accuracy and trustworthiness."
+      ]
+    },
+    {
+      "id": "s5",
+      "label": "Availability",
+      "beats": [
+        "Availability ensures that information and services are accessible to authorised users, whenever they are needed.",
+        "A student opens the university website to download their results. The page loads normally, and the service is healthy.",
+        "Now imagine a sudden flood of requests, far beyond what the server can handle. Response times rise, queues fill up, and eventually the service fails. This is a denial of service attack.",
+        "Availability is engineered in advance. A load balancer spreads traffic across several servers, so that no single machine carries the entire load.",
+        "Servers are duplicated, so if one fails, another takes over. Backups protect the data itself, and disaster recovery plans restore service after a major failure.",
+        "With these controls in place, the service recovers, and the student can download the result again.",
+        "Availability means access to information when it is needed, not merely when everything happens to be working."
+      ]
+    },
+    {
+      "id": "s6",
+      "label": "Working Together",
+      "beats": [
+        "In practice, the three principles are never separate. They work together, in the same system, at the same moment.",
+        "Think about a single banking transaction. Confidentiality ensures that only you, the authenticated customer, can see your account and your balance.",
+        "Integrity ensures that the amount you entered is the amount that is recorded and transferred, unchanged.",
+        "Availability ensures that the application, the database, and the payment network are reachable at the moment you press confirm.",
+        "Remove any one of them, and the system is no longer trustworthy. A private but tampered balance is useless. An accurate balance that nobody can reach is equally useless.",
+        "Complete information security means protecting all three, together."
+      ]
+    },
+    {
+      "id": "s7",
+      "label": "Real-World Applications",
+      "beats": [
+        "These principles appear in every industry that holds sensitive information.",
+        "In banking, confidentiality protects account details, integrity protects the transaction ledger, and availability keeps payments running around the clock.",
+        "In healthcare, confidentiality protects patient records, integrity protects prescriptions and test results, and availability gives doctors access during an emergency.",
+        "In education, confidentiality protects student data, integrity protects marks and certificates, and availability keeps examination and admission portals open on result day.",
+        "The technology differs. The principles do not."
+      ]
+    },
+    {
+      "id": "s8",
+      "label": "Recap",
+      "beats": [
+        "So, when you evaluate any system, ask three questions. Confidentiality. Who can access the information?",
+        "Integrity. Is the information accurate and trustworthy?",
+        "Availability. Can authorised users access it when needed?",
+        "The next time you use an application, access a website, or share information online, remember that these three principles are working behind the scenes. Confidentiality, integrity and availability are not just cybersecurity terminology. They are the foundation of digital trust."
+      ]
+    }
+  ]
+}
